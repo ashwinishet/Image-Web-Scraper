@@ -1,0 +1,78 @@
+* {
+box-sizing: border-box;
+}
+ 
+*:focus {
+	outline: none;
+}
+
+body {
+font-family: Arial;
+background-color: #e8e8e8;
+padding: 50px;
+}
+ 
+.app-title {
+text-align: center;
+color: #000;
+}
+ 
+.login-form {
+text-align: center;
+}
+.control-group {
+margin-bottom: 10px;
+}
+ 
+input {
+text-align: center;
+background-color: #e0ffff;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 250px;
+transition: border .5s;
+}
+ 
+input:focus {
+border: 2px solid #3498DB;
+box-shadow: none;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+
+.btn {
+  border: 2px solid transparent;
+  background: #000;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background-color: #2980B9;
+}
+
+.table-users {
+    text-align: center;
+}
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/static/style.css" type="text/css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scrapped Images</title>
+</head>
+<body>
+<div class="table-users">
+<div class="app-title">
+				<h1>View scrapped images</h1>
+			</div>
+    <table>
+{% for user_image in user_images %}
+        <td width="400">
+            <img width="300" height="300" src="{{ url_for('static', filename=user_image) }}" alt="User Image"></td>
+{% endfor %}
+    </table>
+</div>
+</body>
+</html>
